@@ -1,85 +1,75 @@
-2019-05-27 12:51:44.579 [main] INFO  - Loading §anukkit.yml§f ...
-2019-05-27 12:51:44.879 [main] INFO  - Loading §aserver properties§f ...
-2019-05-27 12:51:44.911 [main] INFO  - Selected English (eng) as the base language
-2019-05-27 12:51:44.913 [main] INFO  - Starting Minecraft: BE server version §bv1.11.0§f
-2019-05-27 12:51:44.936 [main] INFO  - Selected Zlib Provider: 2 (cn.nukkit.utils.ZlibThreadLocal)
-2019-05-27 12:51:45.137 [main] INFO  - Opening server on 0.0.0.0:19132
-2019-05-27 12:51:45.213 [main] INFO  - This server is running Nukkit version §egit-131fb2b§f "§b§f" (API 1.0.8)
-2019-05-27 12:51:45.215 [main] INFO  - Nukkit is distributed under the LGPL License
-2019-05-27 12:51:48.394 [main] INFO  - Loading recipes...
-2019-05-27 12:51:48.985 [main] INFO  - Loaded 1284 recipes.
-2019-05-27 12:51:48.993 [main] INFO  - Successfully loaded 0 resource packs
-2019-05-27 12:51:49.113 [main] WARN  - Level "badgerset" not found
-2019-05-27 12:51:49.268 [main] INFO  - Preparing level "§abadgerset§f"
-2019-05-27 12:51:49.463 [main] INFO  - Preparing level "§anether§f"
-2019-05-27 12:51:49.527 [RakNet Thread #14] INFO  - Epoll is unavailable. Reverting to NioEventLoop.
-2019-05-27 12:51:49.541 [main] INFO  - Starting GS4 status listener
-2019-05-27 12:51:49.543 [main] INFO  - Setting query port to 19132
-2019-05-27 12:51:49.546 [main] INFO  - Query is running on 0.0.0.0:19132
-2019-05-27 12:51:49.548 [main] INFO  - Default game type: Survival Mode
-2019-05-27 12:51:49.550 [main] INFO  - Done (5.215s)! For help, type "help" or "?"
-2019-05-27 12:52:13.955 [main] INFO  - There are 0/20 players online:
-2019-05-27 12:52:13.958 [main] INFO  - 
-2019-05-27 12:52:17.254 [main] INFO  - §a---- §fServer status§a ----
-2019-05-27 12:52:17.257 [main] INFO  - §6Uptime: §c1§6 days §c1§6 hours §c0§6 minutes §c32§6 seconds
-2019-05-27 12:52:17.262 [main] INFO  - §6Current TPS: §a20.0
-2019-05-27 12:52:17.265 [main] INFO  - §6Load: §a1.12%
-2019-05-27 12:52:17.267 [main] INFO  - §6Network upload: §a0.0 kB/s
-2019-05-27 12:52:17.270 [main] INFO  - §6Network download: §a0.0 kB/s
-2019-05-27 12:52:17.276 [main] INFO  - §6Thread count: §a11
-2019-05-27 12:52:17.279 [main] INFO  - §6Used memory: §a94.46 MB. (9.54%)
-2019-05-27 12:52:17.282 [main] INFO  - §6Total memory: §c989.88 MB.
-2019-05-27 12:52:17.284 [main] INFO  - §6Maximum VM memory: §c989.88 MB.
-2019-05-27 12:52:17.287 [main] INFO  - §6Available processors: §a4
-2019-05-27 12:52:17.289 [main] INFO  - §6Players: §a0§a online, §c20§a max.
-2019-05-27 12:52:17.293 [main] INFO  - §6World "badgerset": §c0§a chunks, §c0§a entities, §c0§a blockEntities. Time §e0.0ms
-2019-05-27 12:52:17.296 [main] INFO  - §6World "nether": §c0§a chunks, §c0§a entities, §c0§a blockEntities. Time §e0.0ms
-2019-05-27 12:52:29.453 [main] INFO  - §cUnknown command. Try /help for a list of commands
-2019-05-27 12:52:32.306 [main] INFO  - --- Showing help page 1 of 1 (/help <page>) ---
-2019-05-27 12:52:32.309 [main] INFO  - §2/ban: §fPrevents the specified player from using this server
-2019-05-27 12:52:32.312 [main] INFO  - §2/ban-ip: §fPrevents the specified IP address from using this server
-2019-05-27 12:52:32.314 [main] INFO  - §2/banlist: §fView all players banned from this server
-2019-05-27 12:52:32.317 [main] INFO  - §2/debugpaste: §f%nukkit.command.debug.description
-2019-05-27 12:52:32.319 [main] INFO  - §2/defaultgamemode: §fSet the default gamemode
-2019-05-27 12:52:32.322 [main] INFO  - §2/deop: §fTakes the specified player's operator status
-2019-05-27 12:52:32.324 [main] INFO  - §2/difficulty: §fSets the game difficulty
-2019-05-27 12:52:32.327 [main] INFO  - §2/effect: §fAdds/Removes effects on players
-2019-05-27 12:52:32.329 [main] INFO  - §2/enchant: §fAdds enchantments on items
-2019-05-27 12:52:32.332 [main] INFO  - §2/gamemode: §fChanges the player to a specific game mode
-2019-05-27 12:52:32.334 [main] INFO  - §2/gamerule: §fSets or queries a game rule value.
-2019-05-27 12:52:32.336 [main] INFO  - §2/gc: §fFires garbage collection tasks
-2019-05-27 12:52:32.339 [main] INFO  - §2/give: §fGives the specified player a certain amount of items
-2019-05-27 12:52:32.341 [main] INFO  - §2/help: §fShows the help menu
-2019-05-27 12:52:32.343 [main] INFO  - §2/kick: §fRemoves the specified player from the server
-2019-05-27 12:52:32.346 [main] INFO  - §2/kill: §fCommit suicide or kill other players
-2019-05-27 12:52:32.348 [main] INFO  - §2/list: §fLists all online players
-2019-05-27 12:52:32.350 [main] INFO  - §2/me: §fPerforms the specified action in chat
-2019-05-27 12:52:32.353 [main] INFO  - §2/op: §fGives the specified player operator status
-2019-05-27 12:52:32.356 [main] INFO  - §2/pardon: §fAllows the specified player to use this server
-2019-05-27 12:52:32.358 [main] INFO  - §2/pardon-ip: §fAllows the specified IP address to use this server
-2019-05-27 12:52:32.361 [main] INFO  - §2/particle: §fAdds particles to a world
-2019-05-27 12:52:32.363 [main] INFO  - §2/plugins: §fGets a list of plugins running on the server
-2019-05-27 12:52:32.365 [main] INFO  - §2/reload: §fReloads the server configuration and plugins
-2019-05-27 12:52:32.368 [main] INFO  - §2/save-all: §fSaves the server to disk
-2019-05-27 12:52:32.370 [main] INFO  - §2/save-off: §fDisables server autosaving
-2019-05-27 12:52:32.373 [main] INFO  - §2/save-on: §fEnables server autosaving
-2019-05-27 12:52:32.375 [main] INFO  - §2/say: §fBroadcasts the given message as the sender
-2019-05-27 12:52:32.378 [main] INFO  - §2/seed: §fShows the world seed
-2019-05-27 12:52:32.380 [main] INFO  - §2/setworldspawn: §fSets a worlds's spawn point. If no coordinates are specified, the player's coordinates will be used.
-2019-05-27 12:52:32.383 [main] INFO  - §2/spawnpoint: §fSets a player's spawn point
-2019-05-27 12:52:32.385 [main] INFO  - §2/status: §fReads back the server's performance.
-2019-05-27 12:52:32.387 [main] INFO  - §2/stop: §fStops the server
-2019-05-27 12:52:32.390 [main] INFO  - §2/tell: §fSends a private message to the given player
-2019-05-27 12:52:32.392 [main] INFO  - §2/time: §fChanges the time on each world
-2019-05-27 12:52:32.394 [main] INFO  - §2/timings: §fRecords timings to see performance of the server.
-2019-05-27 12:52:32.397 [main] INFO  - §2/title: §fSends a title to the specified player or modifies title settings for that player
-2019-05-27 12:52:32.399 [main] INFO  - §2/tp: §fTeleports the given player (or yourself) to another player or coordinates
-2019-05-27 12:52:32.401 [main] INFO  - §2/version: §fGets the version of this server including any plugins in use
-2019-05-27 12:52:32.402 [main] INFO  - §2/weather: §fSets the weather in current world
-2019-05-27 12:52:32.404 [main] INFO  - §2/whitelist: §fManages the list of players allowed to use this server
-2019-05-27 12:52:32.405 [main] INFO  - §2/xp: §fGives the specified player a certain amount of experience
-2019-05-27 12:53:02.005 [main] INFO  - This server is running Nukkit git-131fb2b 「」 implementing API version 1.0.8 for Minecraft: PE v1.11.0 (protocol version 354)
-2019-05-27 12:53:18.304 [main] INFO  - [CONSOLE: Stopping the server]
-2019-05-27 12:53:18.356 [main] INFO  - Unloading level "§abadgerset§f"
-2019-05-27 12:53:18.369 [main] INFO  - Unloading level "§anether§f"
-2019-05-27 12:53:18.504 [main] INFO  - Stopping other threads
+2019-05-28 12:59:46.647 [main] INFO  - Loading §anukkit.yml§f ...
+2019-05-28 12:59:46.940 [main] INFO  - Loading §aserver properties§f ...
+2019-05-28 12:59:46.987 [main] INFO  - Selected English (eng) as the base language
+2019-05-28 12:59:46.989 [main] INFO  - Starting Minecraft: BE server version §bv1.11.0§f
+2019-05-28 12:59:47.008 [main] INFO  - Selected Zlib Provider: 2 (cn.nukkit.utils.ZlibThreadLocal)
+2019-05-28 12:59:47.180 [main] INFO  - Opening server on 0.0.0.0:19132
+2019-05-28 12:59:47.257 [main] INFO  - This server is running Nukkit version §egit-131fb2b§f "§b§f" (API 1.0.8)
+2019-05-28 12:59:47.259 [main] INFO  - Nukkit is distributed under the LGPL License
+2019-05-28 12:59:50.205 [main] INFO  - Loading recipes...
+2019-05-28 12:59:50.783 [main] INFO  - Loaded 1284 recipes.
+2019-05-28 12:59:50.788 [main] INFO  - Successfully loaded 0 resource packs
+2019-05-28 12:59:50.997 [main] INFO  - Preparing level "§abadgerset§f"
+2019-05-28 12:59:51.186 [main] INFO  - Preparing level "§anether§f"
+2019-05-28 12:59:51.238 [RakNet Thread #14] INFO  - Epoll is unavailable. Reverting to NioEventLoop.
+2019-05-28 12:59:51.274 [main] INFO  - Starting GS4 status listener
+2019-05-28 12:59:51.276 [main] INFO  - Setting query port to 19132
+2019-05-28 12:59:51.280 [main] INFO  - Query is running on 0.0.0.0:19132
+2019-05-28 12:59:51.282 [main] INFO  - Default game type: Survival Mode
+2019-05-28 12:59:51.284 [main] INFO  - Done (4.827s)! For help, type "help" or "?"
+2019-05-28 13:00:48.146 [main] INFO  - §bHatty Hamster§f[/192.168.1.9:57313] logged in with entity id 1 at (badgerset, 136.5904, 78.0, 8.6011)
+2019-05-28 13:00:49.124 [main] INFO  - §eHatty Hamster joined the game
+2019-05-28 13:05:10.472 [main] INFO  - [Hatty Hamster: Set own game mode to Creative Mode]
+2019-05-28 13:14:16.503 [main] INFO  - §eHatty Hamster left the game
+2019-05-28 13:14:16.509 [main] INFO  - §bHatty Hamster§f[/192.168.1.9:57313] logged out due to client disconnect
+2019-05-28 13:20:41.838 [main] INFO  - §cUnknown command. Try /help for a list of commands
+2019-05-28 13:20:44.745 [main] INFO  - --- Showing help page 1 of 1 (/help <page>) ---
+2019-05-28 13:20:44.751 [main] INFO  - §2/ban: §fPrevents the specified player from using this server
+2019-05-28 13:20:44.755 [main] INFO  - §2/ban-ip: §fPrevents the specified IP address from using this server
+2019-05-28 13:20:44.759 [main] INFO  - §2/banlist: §fView all players banned from this server
+2019-05-28 13:20:44.763 [main] INFO  - §2/debugpaste: §f%nukkit.command.debug.description
+2019-05-28 13:20:44.767 [main] INFO  - §2/defaultgamemode: §fSet the default gamemode
+2019-05-28 13:20:44.780 [main] INFO  - §2/deop: §fTakes the specified player's operator status
+2019-05-28 13:20:44.783 [main] INFO  - §2/difficulty: §fSets the game difficulty
+2019-05-28 13:20:44.785 [main] INFO  - §2/effect: §fAdds/Removes effects on players
+2019-05-28 13:20:44.787 [main] INFO  - §2/enchant: §fAdds enchantments on items
+2019-05-28 13:20:44.789 [main] INFO  - §2/gamemode: §fChanges the player to a specific game mode
+2019-05-28 13:20:44.791 [main] INFO  - §2/gamerule: §fSets or queries a game rule value.
+2019-05-28 13:20:44.792 [main] INFO  - §2/gc: §fFires garbage collection tasks
+2019-05-28 13:20:44.793 [main] INFO  - §2/give: §fGives the specified player a certain amount of items
+2019-05-28 13:20:44.795 [main] INFO  - §2/help: §fShows the help menu
+2019-05-28 13:20:44.796 [main] INFO  - §2/kick: §fRemoves the specified player from the server
+2019-05-28 13:20:44.797 [main] INFO  - §2/kill: §fCommit suicide or kill other players
+2019-05-28 13:20:44.798 [main] INFO  - §2/list: §fLists all online players
+2019-05-28 13:20:44.800 [main] INFO  - §2/me: §fPerforms the specified action in chat
+2019-05-28 13:20:44.801 [main] INFO  - §2/op: §fGives the specified player operator status
+2019-05-28 13:20:44.802 [main] INFO  - §2/pardon: §fAllows the specified player to use this server
+2019-05-28 13:20:44.803 [main] INFO  - §2/pardon-ip: §fAllows the specified IP address to use this server
+2019-05-28 13:20:44.805 [main] INFO  - §2/particle: §fAdds particles to a world
+2019-05-28 13:20:44.807 [main] INFO  - §2/plugins: §fGets a list of plugins running on the server
+2019-05-28 13:20:44.809 [main] INFO  - §2/reload: §fReloads the server configuration and plugins
+2019-05-28 13:20:44.811 [main] INFO  - §2/save-all: §fSaves the server to disk
+2019-05-28 13:20:44.812 [main] INFO  - §2/save-off: §fDisables server autosaving
+2019-05-28 13:20:44.814 [main] INFO  - §2/save-on: §fEnables server autosaving
+2019-05-28 13:20:44.815 [main] INFO  - §2/say: §fBroadcasts the given message as the sender
+2019-05-28 13:20:44.817 [main] INFO  - §2/seed: §fShows the world seed
+2019-05-28 13:20:44.818 [main] INFO  - §2/setworldspawn: §fSets a worlds's spawn point. If no coordinates are specified, the player's coordinates will be used.
+2019-05-28 13:20:44.819 [main] INFO  - §2/spawnpoint: §fSets a player's spawn point
+2019-05-28 13:20:44.820 [main] INFO  - §2/status: §fReads back the server's performance.
+2019-05-28 13:20:44.821 [main] INFO  - §2/stop: §fStops the server
+2019-05-28 13:20:44.822 [main] INFO  - §2/tell: §fSends a private message to the given player
+2019-05-28 13:20:44.823 [main] INFO  - §2/time: §fChanges the time on each world
+2019-05-28 13:20:44.825 [main] INFO  - §2/timings: §fRecords timings to see performance of the server.
+2019-05-28 13:20:44.826 [main] INFO  - §2/title: §fSends a title to the specified player or modifies title settings for that player
+2019-05-28 13:20:44.826 [main] INFO  - §2/tp: §fTeleports the given player (or yourself) to another player or coordinates
+2019-05-28 13:20:44.827 [main] INFO  - §2/version: §fGets the version of this server including any plugins in use
+2019-05-28 13:20:44.828 [main] INFO  - §2/weather: §fSets the weather in current world
+2019-05-28 13:20:44.829 [main] INFO  - §2/whitelist: §fManages the list of players allowed to use this server
+2019-05-28 13:20:44.831 [main] INFO  - §2/xp: §fGives the specified player a certain amount of experience
+2019-05-28 13:20:54.838 [main] INFO  - [CONSOLE: Turned on world auto-saving]
+2019-05-28 13:21:09.737 [main] INFO  - [CONSOLE: Saving...]
+2019-05-28 13:21:09.750 [main] INFO  - [CONSOLE: Saved the world]
+2019-05-28 13:21:13.137 [main] INFO  - [CONSOLE: Stopping the server]
+2019-05-28 13:21:13.197 [main] INFO  - Unloading level "§abadgerset§f"
+2019-05-28 13:21:13.416 [main] INFO  - Unloading level "§anether§f"
+2019-05-28 13:21:13.529 [main] INFO  - Stopping other threads
